@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<title>Create An Employee</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<head>
+	<body>
+		<h3>Create An Employee</h3>
+		<p>An employee has been created.</p>
+
+		<p th:text="'First name: ' + ${firstName}" />
+		<p th:text="'Last name: ' + ${lastName}" />
+
+		<p><a href="/">Return</a></p>
+	<body>
+</html>
